@@ -476,11 +476,11 @@ html .checkbox {
 }
 @media (max-width: 600px) {
   #splash-grid {
-    grid-template-columns: repeat(2, minmax(150px, 300px));
+    grid-template-columns: repeat(2, minmax(100px, 300px));
     grid-template-rows: auto;
   }
   #splash-grid .wpdgrid-square_inner-label {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
   }
 }
 #app-container #content .inner .twocolumn-layout #arwebsearch_nextgengroup1 [title^=Information],
