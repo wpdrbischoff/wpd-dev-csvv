@@ -480,6 +480,7 @@ html .checkbox {
     grid-template-rows: auto;
   }
   #splash-grid .wpdgrid-square_inner-label {
+    line-height: 1.1rem;
     font-size: 0.6rem;
   }
 }
