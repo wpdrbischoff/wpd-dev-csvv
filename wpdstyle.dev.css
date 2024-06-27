@@ -457,7 +457,6 @@ html .checkbox {
   background-color: rgb(55, 78, 95);
   color: white;
   font-size: 1rem;
-  font-size: 0.75rem;
   line-height: 1.4rem;
   height: 20%;
   margin-top: 80%;
@@ -479,6 +478,9 @@ html .checkbox {
   #splash-grid {
     grid-template-columns: repeat(2, minmax(200px, 300px));
     grid-template-rows: auto;
+  }
+  #splash-grid.wpdgrid-square_inner-label {
+    font-size: 0.75rem;
   }
 }
 #app-container #content .inner .twocolumn-layout #arwebsearch_nextgengroup1 [title^=Information],
