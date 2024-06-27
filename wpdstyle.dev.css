@@ -456,7 +456,6 @@ html .checkbox {
 #splash-grid .wpdgrid-square_inner-label {
   background-color: rgb(55, 78, 95);
   color: white;
-  font-size: 1rem;
   line-height: 1.4rem;
   height: 20%;
   margin-top: 80%;
@@ -467,11 +466,17 @@ html .checkbox {
     grid-template-columns: repeat(3, minmax(min-content, 250px));
     grid-template-rows: auto;
   }
+  #splash-grid-square_inner-label {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 991.98px) {
   #splash-grid {
     grid-template-columns: repeat(2, minmax(min-content, 300px));
     grid-template-rows: auto;
+  }
+  #splash-grid-square_inner-label {
+    font-size: 1rem;
   }
 }
 @media (max-width: 600px) {
@@ -479,7 +484,8 @@ html .checkbox {
     grid-template-columns: repeat(2, minmax(200px, 300px));
     grid-template-rows: auto;
   }
-  #splash-grid.wpdgrid-square_inner-label {
+  #splash-grid .wpdgrid-square_inner-label
+  #splash-grid-square_inner-label {
     font-size: 0.75rem;
   }
 }
