@@ -461,6 +461,9 @@ html .checkbox {
   height: 20%;
   margin-top: 80%;
 }
+#splash-grid .wpdgrid-square_inner-label--top {
+  margin-top: 0px;
+}
 
 @media (max-width: 1360px) {
   #splash-grid {
