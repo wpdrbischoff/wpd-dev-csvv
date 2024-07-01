@@ -470,7 +470,7 @@ html .checkbox {
 }
 @media (max-width: 991.98px) {
   #splash-grid {
-    grid-template-columns: repeat(2, minmax(min-content, 300px));
+    grid-template-columns: repeat(2, minmax(150px, 300px));
     grid-template-rows: auto;
   }
 }
