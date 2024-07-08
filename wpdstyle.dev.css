@@ -464,7 +464,7 @@ html .checkbox {
 }
 
 #wpd-textbox {
-  width: 100%;
+  width: calc(100% - 1rem);
   padding: 0 8px;
   background-color: #fcfcfc;
   height: 36px;
@@ -473,7 +473,7 @@ html .checkbox {
   border: 1px solid hsla(0, 0%, 75%, 0.5);
   border-radius: 4px;
   margin-left: 0.5rem;
-  margin-top: calc(100% - 1rem);
+  margin-top: 1rem;
 }
 
 #login-box {
