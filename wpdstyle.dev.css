@@ -447,7 +447,7 @@ html .checkbox {
   border-radius: 0 0 1rem 1rem;
 }
 
-.wpd-loginbtn {
+#wpd-loginbtn {
   background: rgb(240, 85, 87);
   color: white;
   border: 1px solid hsla(0, 0%, 75%, 0.5);
@@ -462,7 +462,7 @@ html .checkbox {
   width: 100%;
 }
 
-.wpd-textbox {
+#wpd-textbox {
   width: 100%;
   padding: 0 8px;
   background-color: #fcfcfc;
