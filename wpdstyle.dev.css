@@ -474,6 +474,10 @@ html .checkbox {
   margin-top: 1rem;
 }
 
+#login-box {
+  background-color: rgb(255, 200, 71);
+}
+
 #splash-grid {
   grid-template-columns: repeat(3, minmax(min-content, 300px));
 }
